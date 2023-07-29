@@ -4,6 +4,7 @@
 
 .description {
     color: black !important;
+    font-weight: 400;
 }
 
 .blockquote.blockquote-primary {
@@ -13,4 +14,30 @@
     small {
         color: #2121de;
     }
+}
+
+.icon-image {
+    font-size: 5rem !important;
+}
+
+.btn-primary {
+    background-color: #2121de;
+
+    a {
+        color: white !important;
+    }
+}
+
+@font-face {
+    font-family: "PressStart2P";
+    src: url('../../../assets/fonts/PressStart2P.ttf');
+}
+
+.pac-man {
+    font-family: 'PressStart2P';
+    font-size: 2.25rem;
+    top: 0.05em;
+    left: 0.1em;
+    position: relative;
+    color: #fdff00;
 }
