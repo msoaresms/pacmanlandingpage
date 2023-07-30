@@ -1,5 +1,7 @@
 {
   "compileOnSave": false,
+  "angularCompilerOptions": {
+    },
   "compilerOptions": {
     "importHelpers": true,
     "outDir": "./dist/out-tsc",
