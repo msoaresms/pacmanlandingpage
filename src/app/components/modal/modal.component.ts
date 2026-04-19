@@ -2,8 +2,9 @@ import {Component, Input} from '@angular/core';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'ngbd-modal-component',
-  templateUrl: './modal.component.html'
+    selector: 'ngbd-modal-component',
+    templateUrl: './modal.component.html',
+    standalone: false
 })
 export class NgbdModalBasic {
     closeResult: string;

@@ -3,7 +3,8 @@ import { Component, OnInit, Inject, Renderer2, ElementRef, OnDestroy } from '@an
 @Component({
     selector: 'app-nucleoicons',
     templateUrl: './nucleoicons.component.html',
-    styleUrls: ['./nucleoicons.component.scss']
+    styleUrls: ['./nucleoicons.component.scss'],
+    standalone: false
 })
 export class NucleoiconsComponent implements OnInit, OnDestroy {
 
