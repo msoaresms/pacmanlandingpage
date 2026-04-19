@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular
-        run: npm run build -- --configuration production --base-href "/pacmanlandingpage/"
+        run: npx ng build --configuration production --base-href "/pacmanlandingpage/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
