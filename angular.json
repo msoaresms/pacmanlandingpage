@@ -16,7 +16,10 @@
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
-            "allowedCommonJsDependencies": ["nouislider", "rellax"],
+            "allowedCommonJsDependencies": [
+              "nouislider",
+              "rellax"
+            ],
             "assets": [
               "src/assets",
               "src/favicon.ico"
@@ -35,7 +38,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
