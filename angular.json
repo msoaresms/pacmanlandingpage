@@ -126,7 +126,6 @@
       }
     }
   },
-  "defaultProject": "now-ui-kit-angular",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
