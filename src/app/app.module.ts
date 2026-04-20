@@ -5,9 +5,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { ExamplesModule } from './examples/examples.module';
-
+import { TranslateModule } from '@ngx-translate/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,13 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
         FormsModule,
         RouterModule,
         AppRoutingModule,
-        ExamplesModule
+        ExamplesModule,
+        TranslateModule.forRoot({
+            loader: provideTranslateHttpLoader({
+                prefix: './assets/i18n/',
+                suffix: '.json'
+            })
+        })
     ],
     providers: [],
     bootstrap: [AppComponent]

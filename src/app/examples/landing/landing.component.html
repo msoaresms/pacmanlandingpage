@@ -5,7 +5,8 @@
         </div>
         <div class="container">
             <div class="content-center">
-                <h1 class="title">RECRIANDO A CLÁSSICA AVENTURA DO <span class="pac-man">PAC-MAN</span> COM UNITY</h1>
+                <h1 class="title">{{ 'title.p1' | translate }}<span class="pac-man">PAC-MAN</span>{{ 'title.p2' |
+                    translate }}</h1>
             </div>
         </div>
     </div>
@@ -13,11 +14,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto text-center">
-                    <h2 class="title">Sobre o projeto:</h2>
-                    <h5 class="description">Desfrute da nostalgia do clássico jogo com os executáveis para Windows e
-                        macOS. Além disso, disponibilizamos o projeto Unity completo, incluindo o código-fonte no GitHub
-                        e a sua documentação para estudantes e desenvolvedores interessados em aprender sobre
-                        desenvolvimento de jogos eletrônicos.</h5>
+                    <h2 class="title">{{ 'about.title' | translate }}</h2>
+                    <p class="description">{{ 'about.description' | translate }}</p>
                 </div>
             </div>
             <div class="separator separator-primary"></div>
@@ -26,11 +24,7 @@
                     <div class="col-md-6">
                         <div class="image-container image-left" style="background-image: url('assets/img/tracker.png')">
                             <!-- First image on the left side -->
-                            <p class="blockquote blockquote-primary">"À direita, a visão do jogo pelo jogador. À
-                                esquerda, a cena no ambiente de desenvolvimento da Unity, com linhas vermelhas indicando
-                                os pontos-alvo dos fantasmas em um momento específico do jogo."
-
-                            </p>
+                            <p class="blockquote blockquote-primary">{{ 'quote' | translate}}</p>
                         </div>
                         <!-- Second image on the left side of the article -->
                         <div class="image-container" style="background-image: url('assets/img/frightened.png')"></div>
@@ -39,30 +33,16 @@
                         <!-- First image on the right side, above the article -->
                         <div class="image-container image-right" style="background-image: url('assets/img/bg1.png')">
                         </div>
-                        <h3>Lançado em 1980, o jogo <span class="pac-man-text" style="font-size: 1rem;">PAC-MAN</span>
-                            se tornou um fenômeno mundial e deixou um legado duradouro
-                            na indústria dos videogames.</h3>
-                        <p><span class="pac-man-easter">Pac-Man</span> é um dos jogos mais influentes da história dos
-                            jogos eletrônicos, vendendo milhões de
-                            cópias e popularizando a indústria de jogos. Foi um dos primeiros jogos a serem licenciados
-                            para consoles domésticos, sendo lançado no Atari em 1982, e extrapolou o limite dos jogos
-                            ganhando spin-offs e adaptações para outras plataformas e mídias como smartphones, filmes,
-                            livros e até roupas e sapatos.
+                        <h3>{{ 'content.header.p1' | translate }}<span class="pac-man-text"
+                                style="font-size: 1rem;">PAC-MAN</span>
+                            {{'content.header.p2' | translate}}</h3>
+                        <p><span class="pac-man-easter">Pac-Man</span>{{ 'content.paragraph1' | translate }}
                         </p>
-                        <p>
-                            Na área de desenvolvimento de jogos eletrônicos, o <span
-                                class="pac-man-easter">Pac-Man</span> também foi um marco, sendo o
-                            primeiro jogo a apresentar a mecânica de power-ups. Além disso, o jogo se destacou pela
-                            inovadora inteligência artificial utilizada na
-                            movimentação dos inimigos, criando padrões de comportamento únicos para cada fantasma e
-                            dando aos jogadores a sensação de enfrentar adversários astutos e imprevisíveis.
+                        <p>{{ 'content.paragraph2.p1' | translate }}<span class="pac-man-easter">Pac-Man</span>{{
+                            'content.paragraph2.p2' | translate }}
                         </p>
-                        <p>Por conta de sua influência, e dos conceitos inovadores que introduziu, o jogo <span
-                                class="pac-man-easter">Pac-Man</span>
-                            constantemente é utilizado para ensinar como idealizar jogos simples, mas viciantes, e
-                            também
-                            para ensinar sobre a história dos jogos eletrônicos e suas evoluções ao longo do tempo, além
-                            da influência que esse ramo pode causar na sociedade.
+                        <p>{{ 'content.paragraph3.p1' | translate }}<span class="pac-man-easter">Pac-Man</span>
+                            {{ 'content.paragraph3.p2' | translate }}
                         </p>
                     </div>
                 </div>
@@ -71,43 +51,43 @@
     </div>
     <div class="section section-team text-center">
         <div class="container">
-            <h2 class="title">O que disponibilizamos:</h2>
+            <h2 class="title">{{ 'resources.title' | translate }}</h2>
             <div class="team">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="team-player">
                             <i class="now-ui-icons files_single-copy-04 icon-image" style="height: 2rem;"></i>
-                            <h4 class="title">Código fonte</h4>
-                            <p class="description">Explore o projeto Unity completo no GitHub, onde você encontrará
-                                todos os assets utilizados, efeitos sonoros e scripts comentados detalhadamente,
-                                proporcionando uma compreensão completa da finalidade de cada função
+                            <h4 class="title">{{ 'resources.source_code.title' | translate }}</h4>
+                            <p class="description">
+                                {{ 'resources.source_code.description' | translate }}
                             </p>
                             <button type="button" class="btn btn-primary btn-round"><a
-                                    href="https://github.com/msoaresms/PacManTCC" target="_blank">Acessar</a></button>
+                                    href="https://github.com/msoaresms/PacManTCC" target="_blank">{{
+                                    'resources.access_button' | translate }}</a></button>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="team-player">
                             <i class="now-ui-icons design-2_ruler-pencil icon-image"></i>
-                            <h4 class="title">Documentação</h4>
-                            <p class="description">Disponibilizamos um PDF contendo o diagrama de classes do
-                                projeto, a máquina de estados dos comportamentos dos fantasmas, os requisitos funcionais
-                                e descrições dos scripts, variáveis e funções utilizadas</p>
+                            <h4 class="title">{{ 'resources.documentation.title' | translate }}</h4>
+                            <p class="description">
+                                {{ 'resources.documentation.description' | translate }}
+                            </p>
                             <button type="button" class="btn btn-primary btn-round"><a
-                                    href="https://github.com/msoaresms/PacManTCC/releases"
-                                    target="_blank">Acessar</a></button>
+                                    href="https://github.com/msoaresms/PacManTCC/releases" target="_blank">{{
+                                    'resources.access_button' | translate }}</a></button>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="team-player">
                             <i class="now-ui-icons design_app icon-image"></i>
-                            <h4 class="title">Executáveis</h4>
-                            <p class="description">Oferecemos executáveis do jogo para os sistemas Windows e MacOS,
-                                proporcionando uma experiência rápida e conveniente de jogo. Com esses executáveis, você
-                                pode iniciar o jogo sem complicações</p>
+                            <h4 class="title">{{ 'resources.executables.title' | translate }}</h4>
+                            <p class="description">
+                                {{ 'resources.executables.description' | translate }}
+                            </p>
                             <button type="button" class="btn btn-primary btn-round"><a
-                                    href="https://github.com/msoaresms/PacManTCC/releases"
-                                    target="_blank">Acessar</a></button>
+                                    href="https://github.com/msoaresms/PacManTCC/releases" target="_blank">{{
+                                    'resources.access_button' | translate }}</a></button>
                         </div>
                     </div>
                 </div>
@@ -116,7 +96,7 @@
     </div>
     <footer class="footer footer-default">
         <div class="container">
-            O objetivo deste trabalho é exclusivamente para fins acadêmicos e de estudo. O autor não assume qualquer responsabilidade pelo uso indevido ou não autorizado do conteúdo aqui apresentado. Qualquer uso, reprodução ou distribuição deste trabalho fora do escopo acadêmico deve ser feito com a devida permissão e respeito às leis de propriedade intelectual aplicáveis.
+            {{ 'disclaimer' | translate }}
         </div>
     </footer>
 </div>
