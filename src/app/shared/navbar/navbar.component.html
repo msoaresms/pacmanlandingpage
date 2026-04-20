@@ -32,6 +32,21 @@
                         <p>{{ 'resources.executables.title' | translate }}</p>
                     </a>
                 </li>
+                <li class="nav-item lang-selector">
+                    <div class="nav-link d-flex align-items-center">
+                        <i class="now-ui-icons location_world mr-2"></i>
+                        <div class="lang-options">
+                            <span class="lang-btn" [class.active]="currentLang === 'pt-br'"
+                                (click)="useLanguage('pt-br')">PT</span>
+                            <span class="separator-lang">|</span>
+                            <span class="lang-btn" [class.active]="currentLang === 'en-us'"
+                                (click)="useLanguage('en-us')">EN</span>
+                            <span class="separator-lang">|</span>
+                            <span class="lang-btn" [class.active]="currentLang === 'es-mx'"
+                                (click)="useLanguage('es-mx')">ES</span>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

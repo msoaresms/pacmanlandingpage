@@ -1,0 +1,43 @@
+{
+    "title": {
+        "p1": "RECREANDO LA CLÁSICA AVENTURA DE ",
+        "p2": " CON UNITY"
+    },
+    "about": {
+        "title": "Sobre el proyecto:",
+        "description": "Disfruta de la nostalgia del juego clásico con ejecutables para Windows y macOS. Además, ponemos a disposición el proyecto completo en Unity, incluyendo el código fuente en GitHub y su documentación para estudiantes y desarrolladores interesados en aprender sobre el desarrollo de videojuegos."
+    },
+    "quote": "A la derecha, la vista del juego desde el jugador. A la izquierda, la escena en el entorno de desarrollo de Unity, con líneas rojas que indican los puntos objetivo de los fantasmas en un momento específico del juego.",
+    "content": {
+        "header": {
+            "p1": "Lanzado en 1980, el juego ",
+            "p2": " se convirtió en un fenómeno mundial y dejó un legado duradero en la industria de los videojuegos."
+        },
+        "paragraph1": " es uno de los juegos más influyentes en la historia de los videojuegos, vendiendo millones de copias y popularizando la industria del gaming. Fue uno de los primeros juegos en ser licenciados para consolas domésticas, lanzado en Atari en 1982, y trascendió los límites del juego al generar spin-offs y adaptaciones para otras plataformas y medios como smartphones, películas, libros e incluso ropa y calzado.",
+        "paragraph2": {
+            "p1": "En el ámbito del desarrollo de videojuegos, ",
+            "p2": " también fue un hito, siendo el primer juego en presentar la mecánica de power-ups. Además, el juego destacó por su innovadora inteligencia artificial utilizada en el movimiento de los enemigos, creando patrones de comportamiento únicos para cada fantasma y dando a los jugadores la sensación de enfrentar oponentes astutos e impredecibles."
+        },
+        "paragraph3": {
+            "p1": "Debido a su influencia y a los conceptos innovadores que introdujo, el juego ",
+            "p2": " se utiliza constantemente para enseñar cómo diseñar juegos simples pero adictivos, así como para enseñar la historia de los videojuegos y su evolución a lo largo del tiempo, además de la influencia que esta área puede tener en la sociedad."
+        }
+    },
+    "resources": {
+        "title": "Lo que ofrecemos:",
+        "access_button": "Acceder",
+        "source_code": {
+            "title": "Código fuente",
+            "description": "Explora el proyecto completo en Unity en GitHub, donde encontrarás todos los assets utilizados, efectos de sonido y scripts detalladamente comentados, proporcionando una comprensión completa del propósito de cada función"
+        },
+        "documentation": {
+            "title": "Documentación",
+            "description": "Proporcionamos un PDF que contiene el diagrama de clases del proyecto, la máquina de estados de los comportamientos de los fantasmas, los requisitos funcionales y descripciones de los scripts, variables y funciones utilizadas"
+        },
+        "executables": {
+            "title": "Ejecutables",
+            "description": "Ofrecemos ejecutables del juego para sistemas Windows y macOS, brindando una experiencia de juego rápida y conveniente. Con estos ejecutables, puedes iniciar el juego sin complicaciones"
+        }
+    },
+    "disclaimer": "El propósito de este trabajo es exclusivamente académico y de estudio. El autor no asume ninguna responsabilidad por el uso indebido o no autorizado del contenido aquí presentado. Cualquier uso, reproducción o distribución de este trabajo fuera del ámbito académico debe realizarse con el debido permiso y en cumplimiento de las leyes de propiedad intelectual aplicables."
+}

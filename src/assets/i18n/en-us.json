@@ -1,0 +1,43 @@
+{
+    "title": {
+        "p1": "RECREATING THE CLASSIC ADVENTURE OF ",
+        "p2": " WITH UNITY"
+    },
+    "about": {
+        "title": "About the project:",
+        "description": "Enjoy the nostalgia of the classic game with executables for Windows and macOS. In addition, we provide the complete Unity project, including the source code on GitHub and its documentation for students and developers interested in learning about game development."
+    },
+    "quote": "On the right, the player's view of the game. On the left, the scene in the Unity development environment, with red lines indicating the ghosts' target points at a specific moment in the game.",
+    "content": {
+        "header": {
+            "p1": "Released in 1980, the game ",
+            "p2": "became a worldwide phenomenon and left a lasting legacy in the video game industry."
+        },
+        "paragraph1": " is one of the most influential games in the history of video games, selling millions of copies and popularizing the gaming industry. It was one of the first games to be licensed for home consoles, being released on Atari in 1982, and it went beyond the limits of gaming by gaining spin-offs and adaptations for other platforms and media such as smartphones, movies, books, and even clothing and shoes.",
+        "paragraph2": {
+            "p1": "In the field of game development, ",
+            "p2": " was also a milestone, being the first game to introduce the power-up mechanic. In addition, the game stood out for its innovative artificial intelligence used in enemy movement, creating unique behavior patterns for each ghost and giving players the feeling of facing clever and unpredictable opponents."
+        },
+        "paragraph3": {
+            "p1": "Due to its influence and the innovative concepts it introduced, the game ",
+            "p2": " is frequently used to teach how to design simple yet addictive games, as well as to teach the history of video games and their evolution over time, in addition to the influence this field can have on society."
+        }
+    },
+    "resources": {
+        "title": "What we provide:",
+        "access_button": "Access",
+        "source_code": {
+            "title": "Source Code",
+            "description": "Explore the complete Unity project on GitHub, where you will find all the assets used, sound effects, and thoroughly commented scripts, providing a complete understanding of the purpose of each function"
+        },
+        "documentation": {
+            "title": "Documentation",
+            "description": "We provide a PDF containing the project's class diagram, the state machine of the ghosts' behaviors, the functional requirements, and descriptions of the scripts, variables, and functions used"
+        },
+        "executables": {
+            "title": "Executables",
+            "description": "We offer game executables for Windows and macOS systems, providing a fast and convenient gameplay experience. With these executables, you can start the game without complications"
+        }
+    },
+    "disclaimer": "The purpose of this work is exclusively academic and for study purposes. The author assumes no responsibility for the misuse or unauthorized use of the content presented here. Any use, reproduction, or distribution of this work outside the academic scope must be carried out with proper permission and in compliance with applicable intellectual property laws."
+}
